@@ -1,0 +1,32 @@
+[
+  {
+    "prompt":"Convert the point $(0,3)$ in rectangular coordinates to polar coordinates.  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+    "answer":"\\left( 3, \\frac{\\pi}{2} \\right)",
+    "source":"math",
+    "id":"test/precalculus/807.json"
+  },
+  {
+    "prompt":"Define\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{and} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]Find a way to write\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]in terms of $p$ and $q.$",
+    "answer":"p - q",
+    "source":"math",
+    "id":"test/intermediate_algebra/1994.json"
+  },
+  {
+    "prompt":"If $f(x) = \\frac{3x-2}{x-2}$, what is the value of $f(-2) +f(-1)+f(0)$? Express your answer as a common fraction.",
+    "answer":"\\frac{14}{3}",
+    "source":"math",
+    "id":"test/algebra/2584.json"
+  },
+  {
+    "prompt":"How many positive whole-number divisors does 196 have?",
+    "answer":"9",
+    "source":"math",
+    "id":"test/number_theory/572.json"
+  },
+  {
+    "prompt":"The results of a cross-country team's training run are graphed below. Which student has the greatest average speed? [asy]\nfor ( int i = 1; i <= 7; ++i )\n{\n\ndraw((i,0)--(i,6));\n}\n\nfor ( int i = 1; i <= 5; ++i )\n{\n\ndraw((0,i)--(8,i));\n}\ndraw((-0.5,0)--(8,0), linewidth(1));\ndraw((0,-0.5)--(0,6), linewidth(1));\nlabel(\"$O$\", (0,0), SW);\nlabel(scale(.85)*rotate(90)*\"distance\", (0, 3), W);\nlabel(scale(.85)*\"time\", (4, 0), S);\ndot((1.25, 4.5));\nlabel(scale(.85)*\"Evelyn\", (1.25, 4.8), N);\ndot((2.5, 2.2));\nlabel(scale(.85)*\"Briana\", (2.5, 2.2), S);\ndot((4.25,5.2));\nlabel(scale(.85)*\"Carla\", (4.25, 5.2), SE);\ndot((5.6, 2.8));\nlabel(scale(.85)*\"Debra\", (5.6, 2.8), N);\ndot((6.8, 1.4));\nlabel(scale(.85)*\"Angela\", (6.8, 1.4), E);\n[/asy]",
+    "answer":"\\text{Evelyn}",
+    "source":"math",
+    "id":"test/algebra/1349.json"
+  }
+]
