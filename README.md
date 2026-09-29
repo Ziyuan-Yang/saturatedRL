@@ -2,7 +2,7 @@
 
 > We study how to recover useful learning signals from reward-saturated reasoning data in group-relative RL by testing interventions across data, rollout, reward, and advantage levels.
 
-Paper link: []()
+Paper link: [https://arxiv.org/abs/2609.33126](https://arxiv.org/abs/2609.33126)
 
 ## Overview
 
@@ -206,5 +206,9 @@ If you find our work useful, please consider citing our paper:
       title={Save Your Saturated Data: Learning Beyond Reward Saturation in Group-Based RL},
       author={Ziyuan Yang and Yike Wang and Shangbin Feng and Yulia Tsvetkov},
       year={2026},
+      eprint={2609.33126},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.33126}
 }
 ```
